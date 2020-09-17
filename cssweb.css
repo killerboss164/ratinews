@@ -13,14 +13,14 @@ header{
     align-items: center;
     color:#1b1b1b;
     font-size: 25px;
-    font-family: FreeMono, monospace;
+    font-family:Noto Sans JP, sans serif;
     font-weight: 100;
 }
 main{
     background-image: "https://images4.alphacoders.com/102/1022934.jpg";
 }
 html{
-    background: #1b1b1b;
+    background: white;
 }
 .cyberpunk{
     position: absolute;
@@ -30,7 +30,7 @@ html{
     top: 45%;
     left:10%;
     right: 10%;
-    font-family: FreeMono, monospace;
+    font-family:Noto Sans JP, sans serif;
     font-size: 200%;
     color: #6610f2;
     
@@ -40,7 +40,7 @@ html{
     display: block;
      top: 40%;
      left:43%;
-    font-family: FreeMono, monospace;
+     font-family:Noto Sans JP, sans serif;
     font-size: 250%;
     color: #ff0505;
 }
