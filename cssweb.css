@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 header{
-    background: #6610f2;
+    background: #2D88FF;
+
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     position: absolute;
     width: 100%;
@@ -31,7 +32,7 @@ html{
     right: 10%;
     font-family:Noto Sans JP, sans serif;
     font-size: 200%;
-    color: #6610f2;
+    color: #166fe5;
     
 }
 .first{
@@ -65,3 +66,40 @@ html{
     top: 2%;
     left: 35%;
 }
+.finallyigive{
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    left: 35%;
+}
+.finallyfirst{
+    position: absolute;
+    display: block;
+     top: 40%;
+     left:43%;
+     font-family:Noto Sans JP, sans serif;
+    font-size: 250%;
+    color: #ff0505;
+}
+.finalfantasy{
+    position: absolute;
+    display: block;
+    border: 2px solid #ff0505;
+    border-radius: 10px;
+    top: 45%;
+    left:10%;
+    right: 10%;
+    font-family:Noto Sans JP, sans serif;
+    font-size: 200%;
+    color: #166fe5;}
+
+    .photo-b{
+        width: 182%;
+        border: solid #ff0505;
+        border-radius: 10px;
+    }
+    .imgcybe-b{
+        position: absolute;
+        top: 23%;
+        left: 55%;
+    }
