@@ -1,3 +1,3 @@
-function ratimode(){
-document.body.classList.toggle("ratimode");
-}
+function darkMode(){
+    document.body.classList.toggle("dark-mode");
+  }
