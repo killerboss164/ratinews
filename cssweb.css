@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+body{
+    background: white;
+    font-family:Noto Sans JP, sans serif;
+    color:#1b1b1b;
+}
 header{
     background: #2D88FF;
-
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     position: absolute;
     width: 100%;
@@ -11,16 +15,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#1b1b1b;
     font-size: 25px;
-    font-family:Noto Sans JP, sans serif;
     font-weight: 100;
-}
-main{
-    background-image: "https://images4.alphacoders.com/102/1022934.jpg";
-}
-html{
-    background: white;
 }
 .cyberpunk{
     position: absolute;
@@ -30,35 +26,53 @@ html{
     top: 45%;
     left:10%;
     right: 10%;
-    font-family:Noto Sans JP, sans serif;
     font-size: 200%;
-    color: #166fe5;
-    
+    color: #166FE5;
 }
-.first{
-    position: absolute;
-    display: block;
-     top: 40%;
-     left:43%;
-     font-family:Noto Sans JP, sans serif;
-    font-size: 250%;
-    color: #ff0505;
-}
-
-.goback{
-     position: absolute;
-     top: -0.3%;
-}
-
-.imgcybe-a{
+.imgcybe{
     position: absolute;
     top: 23%;
     left: 18%;
 }
-.photo-a{
-    width: 40%;
+.imgcybe-a{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+}
+.photo{
+    width: 500px;
     border: solid #ff0505;
     border-radius: 10px;
+}
+.sratimode{
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+}
+/*dark-mode*/
+
+body.dark-mode{
+    background: black;
+}
+
+/* FOR CYBERPUNK */
+.first{
+    position: absolute;
+    display: block;
+    top: 40%;
+    left:43%;
+    font-family:Noto Sans JP, sans serif;
+    font-size: 250%;
+    color: #ff0505;
+}
+.finallyfirst{
+    position: absolute;
+    display: block;
+    top: 40%;
+    left:43%;
+    font-family:Noto Sans JP, sans serif;
+    font-size: 250%;
+    color: #ff0505;
 }
 .igive{
     position: absolute;
@@ -72,15 +86,6 @@ html{
     top: 2%;
     left: 35%;
 }
-.finallyfirst{
-    position: absolute;
-    display: block;
-     top: 40%;
-     left:43%;
-     font-family:Noto Sans JP, sans serif;
-    font-size: 250%;
-    color: #ff0505;
-}
 .finalfantasy{
     position: absolute;
     display: block;
@@ -91,25 +96,9 @@ html{
     right: 10%;
     font-family:Noto Sans JP, sans serif;
     font-size: 200%;
-    color: #166fe5;}
-
-    .photo-b{
-        width: 164%;
-        border: solid #ff0505;
-        border-radius: 10px;
-    }
-    .imgcybe-b{
-        position: absolute;
-        top: 23%;
-        left: 55%;
-    }
-
-.sratimode{
-    position: absolute;
-    top: 30%;
+    color: #166fe5;
 }
-  /*darkmode*/
-
-  body.ratimode{
-      background: black;
-  }
+.goback{
+    position: absolute;
+    top: -0.3%;
+}
