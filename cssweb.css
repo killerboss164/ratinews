@@ -56,7 +56,7 @@ html{
     left: 18%;
 }
 .photo-a{
-    width: 35%;
+    width: 40%;
     border: solid #ff0505;
     border-radius: 10px;
 }
@@ -94,7 +94,7 @@ html{
     color: #166fe5;}
 
     .photo-b{
-        width: 182%;
+        width: 164%;
         border: solid #ff0505;
         border-radius: 10px;
     }
@@ -103,3 +103,13 @@ html{
         top: 23%;
         left: 55%;
     }
+
+.sratimode{
+    position: absolute;
+    top: 30%;
+}
+  /*darkmode*/
+
+  body.ratimode{
+      background: black;
+  }
